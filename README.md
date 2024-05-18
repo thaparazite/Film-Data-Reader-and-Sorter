@@ -1,3 +1,51 @@
+# Film Data Reader and Sorter
+
+## Project Overview:
+The Film Data Reader and Sorter is a Java application designed to read film data from a Comma-Separated Values (CSV) file, perform various operations on the data, and allow users to interactively sort the films based on different criteria. It provides functionalities such as reading film data from a file, calculating statistics on the data, sorting films by different columns, and adding new films to the list.
+
+## Key Features:
+1. **Reading Film Data**: The program can read film data from a CSV file containing information such as film ID, title, genre, director name, length, and rating.
+   
+2. **Data Analysis**: Users can calculate statistics on the film data, such as the sum of lengths of films at even indexes and finding the minimum value in the length column.
+
+3. **Interactive Sorting**: The application allows users to sort films by different columns, including film ID, title, genre, director name, length, and rating. Users can choose the column they want to sort by and observe the sorted results.
+
+4. **Parallel Sorting**: Sorting operations are optimized using multithreading. The program creates an executor service with a fixed thread pool to sort films by each column in parallel, enhancing performance for large datasets.
+
+5. **Exception Handling**: Robust exception handling is implemented to manage errors gracefully. Various custom exception classes are used to handle validation errors, such as invalid genre, director name, title, rating, and length.
+
+6. **Dynamic Film Addition**: Users can dynamically add new films to the list by providing details such as genre, director name, title, rating, and length. The program validates user input to ensure data integrity.
+
+7. **File Management**: The application supports saving sorted films to separate files with the column number in the filename. This feature enables users to export sorted data for further analysis or sharing.
+
+## Project Significance:
+This project showcases proficiency in Java programming, including file I/O, data manipulation, exception handling, multithreading, and object-oriented design principles. It provides users with a comprehensive tool for managing film data, analyzing statistics, and performing sorting operations based on user preferences.
+
+## Getting Started:
+### Prerequisites:
+Ensure you have Java Development Kit (JDK) installed on your system to compile and run the program.
+
+### Compilation and Execution Steps:
+1. Clone or download the repository to your local machine.
+2. Open a terminal or command prompt and navigate to the directory containing the Java files.
+3. Compile the Java files using the command: `javac FilmDataReaderAndSorter.java`.
+4. Run the compiled program using the command: `java FilmDataReaderAndSorter`.
+
+## Support and Assistance:
+If you encounter any issues or have questions about the project, feel free to reach out to the project maintainer via email. Support for this project is provided on a best-effort basis.
+
+## Project Maintenance and Contributors:
+This project is maintained and developed by [Flaviu Vanca](https://github.com/thaparazite). Contributions and suggestions are welcome via pull requests. Please adhere to the project's contribution guidelines outlined in the repository.
+
+## License:
+This project is provided without any specific license. Users are free to use, modify, and distribute the code for educational and non-commercial purposes.
+
+## Disclaimer:
+This application is for educational and demonstration purposes only. It may not be suitable for production use without further validation and testing. Use at your own risk.
+
+
+----------------------------
+
 # Project Overview
 
 The Film Data Reader and Sorter is a Java application designed to handle film data stored in a CSV file. It offers various functionalities to interact with the film data, including reading the data from the file, performing statistical calculations, sorting films based on different criteria, and allowing users to add new films to the list.
