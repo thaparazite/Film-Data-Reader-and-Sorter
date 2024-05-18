@@ -43,11 +43,6 @@ The application interacts with users through the command-line interface (CLI). U
 # Project Scope:
 The project aims to provide a robust and efficient solution for managing film data in a Java environment. It focuses on essential functionalities such as data reading, analysis, sorting, and user interaction. Future enhancements may include additional features for data visualization, advanced statistical analysis, and integration with external databases or APIs for enriched film information.
 
-
-# Project Scope:
-The project aims to provide a robust and efficient solution for managing film data in a Java environment. It focuses on essential functionalities such as data reading, analysis, sorting, and user interaction. Future enhancements may include additional features for data visualization, advanced statistical analysis, and integration with external databases or APIs for enriched film information.
-
-
 ## Project Significance:
 This project aims to demonstrate skills in file I/O, data manipulation, exception handling, and multithreading in Java programming. It provides users with a tool to manage film data efficiently, analyze statistics, and perform sorting operations based on user preferences.
 
