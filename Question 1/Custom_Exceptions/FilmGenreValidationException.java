@@ -1,3 +1,5 @@
+package Custom_Exceptions;
+
 public class FilmGenreValidationException extends FilmDataValidationException {
     public FilmGenreValidationException(String message) {
         super(message);// call the superclass constructor

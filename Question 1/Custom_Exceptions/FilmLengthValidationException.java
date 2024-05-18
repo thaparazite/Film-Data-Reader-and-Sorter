@@ -1,4 +1,6 @@
-class FilmLengthValidationException extends FilmDataValidationException {
+package Custom_Exceptions;
+
+public class FilmLengthValidationException extends FilmDataValidationException {
     public FilmLengthValidationException(String message) {
         // call the superclass constructor
         super(message);

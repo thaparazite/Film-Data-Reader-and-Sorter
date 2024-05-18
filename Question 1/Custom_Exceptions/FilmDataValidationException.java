@@ -1,4 +1,6 @@
-class FilmDataValidationException extends RuntimeException {
+package Custom_Exceptions;
+
+public class FilmDataValidationException extends RuntimeException {
     public FilmDataValidationException(String message) {
         super(message);// call the superclass constructor
     }// end of FilmDataValidationException constructor
